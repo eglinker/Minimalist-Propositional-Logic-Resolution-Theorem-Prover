@@ -67,10 +67,9 @@ e)	In jurisdictions where any part of this legal agreement
 	this text for any purpose.
 
 ```
-------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------
 ## API
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 ### getKB()
 Returns the knowledge base of the PLResolutionProver object 
 as a list of lists representing the knowledgebase in conjunctive normal 
@@ -82,7 +81,7 @@ Example:
 >>>print   myPLResolutionProver.getKB()  
 [[1, 3, 5], [-5, 7, -6], [63, -23, 49], . . . . . 
 ```
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 ### setKB(KBInput)
 Takes a list of lists as an input argument representing a 
@@ -101,7 +100,7 @@ Example:
 >>>myPLResolutionProver.setKB([]) # Set the content of the knowlegebase to an empty list
 ```
 
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 ### addToKBAndResolve(disjunctiveClause)
 Add a disjunctive clause to the 
@@ -118,7 +117,7 @@ Example:
 [[-1,2], [-2,3], [-3], [-2], [-1]]
 ```
 
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 ### addToKB(disjunctiveClause)
 Add a disjunctive clause to the knowledgebase 
